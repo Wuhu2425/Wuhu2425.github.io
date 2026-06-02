@@ -101,7 +101,18 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </ol>
 <h2>总结：适合对于追求内容创作，对界面和功能要求不高的纯写作者。</h2>
 <h3>接下来介绍如何利用Gmeek在github创建自己的blog</h3>
-<h4>1.</h4></div>
+<h4>1. 创建仓库</h4>
+<p>访问<a href="https://github.com/Meekdai/Gmeek">https://github.com/Meekdai/Gmeek</a> ，下滑在README板块中，点击 <em>通过模板创建仓库</em> 进入创建仓库页面；在 <em>Repository name</em> 输入栏，输入<code class="notranslate">xxx.github.io</code>（xxx建议为你的github用户名），然后点击 <em>create repositoy</em> 创建仓库。</p>
+<h4>2.启用Pages</h4>
+<p>在仓库顶部菜单中点击 <em>Settings</em> ，进入仓库的设置界面，在左侧找到 <em>Pages</em> 并点击进入Pages设置界面，点击 <em>Deploy from a branch</em> 并选中Github Actions。</p>
+<h4>3.开始写作</h4>
+<p>在仓库的顶部菜单栏找到 <em>Issues</em> ，点击右边绿色按键 <em>New issue</em> ，在 <em>Add a title</em> 输入栏中，输入你的文章的标题，在 <em>Add a description</em> 输入你的文章内容，在编辑完成后，在右边 <em>Label</em> 标签类型选择栏中，选择 <em>documentation</em> ，然后点击右下角 <em>create</em> 绿色按钮，自动创建博客内容，你可以在仓库顶部菜单找到 <em>Actions</em> 查看博客内容的构建进度，若报错，可以点击左侧_build Gmeek_ 选项，在右边出现的蓝色框中，找到Run workflow下拉菜单再点击Run workflow绿色按钮进行手动全局生成。</p>
+<h4>4.访问博客界面</h4>
+<p>仓库顶部菜单中点击 <em>Code</em> ，回到源码界面，向下翻找到 _README_板块，出现了蓝色的链接 <code class="notranslate">xxx.github.io</code> 点击，即可访问博客界面。</p>
+<h4>5.修改配置文件</h4>
+<p>回到仓库源码界面，找到 <em>config.json</em> 文件，其中必填参数有<code class="notranslate">title</code>（博客标题），<code class="notranslate">subTitle</code>（博客描述&amp;自述），<code class="notranslate">avatarUrl</code>（博客头像），<code class="notranslate">GMEEK_VERSION</code>（Gmeek版本，一般写last也可以用具体tag版本）；其他选填参数可以在作者编写的 <a href="https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html" rel="nofollow">https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html</a> 中自行查询</p>
+<hr>
+<p>ending~</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
