@@ -1,2 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>梧糊的博客</title><link>https://Wuhu2425.github.io</link><description>分享自己的学习经历</description><copyright>梧糊的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/123893718?v=4</url><title>avatar</title><link>https://Wuhu2425.github.io</link></image><lastBuildDate>Tue, 02 Jun 2026 10:19:12 +0000</lastBuildDate><managingEditor>梧糊的博客</managingEditor><ttl>60</ttl><webMaster>梧糊的博客</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>梧糊的博客</title><link>https://Wuhu2425.github.io</link><description>分享自己的学习经历</description><copyright>梧糊的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/123893718?v=4</url><title>avatar</title><link>https://Wuhu2425.github.io</link></image><lastBuildDate>Tue, 02 Jun 2026 10:42:04 +0000</lastBuildDate><managingEditor>梧糊的博客</managingEditor><ttl>60</ttl><webMaster>梧糊的博客</webMaster><item><title>我的第一篇博客：如何利用Gmeek在github创建自己的blog</title><link>https://Wuhu2425.github.io/post/wo-de-di-yi-pian-bo-ke-%EF%BC%9A-ru-he-li-yong-Gmeek-zai-github-chuang-jian-zi-ji-de-blog.html</link><description>### 前言
+先聊一聊利用Gmeek在github中创建自己的博客的优缺点；
+下面是它的优势：
+1. 简单且轻量，界面简洁清爽，无需编程基础；
+2. 基于Github Issues写作，支持MarkDown，可以随时修改，回溯；
+3. 生成基于Github Issues的评论区，访客用GitHub账号即可留言；
+4. 正文在Github Issues上，对搜索引擎爬虫友好，被搜索到的概率相比传统静态博客有一定优势。</description><guid isPermaLink="true">https://Wuhu2425.github.io/post/wo-de-di-yi-pian-bo-ke-%EF%BC%9A-ru-he-li-yong-Gmeek-zai-github-chuang-jian-zi-ji-de-blog.html</guid><pubDate>Tue, 02 Jun 2026 10:40:44 +0000</pubDate></item></channel></rss>
